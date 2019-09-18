@@ -1,0 +1,196 @@
+* {
+  box-sizing: border-box;
+  margin: 0; }
+
+.container {
+  margin: auto;
+  max-width: 1920px; }
+
+header {
+  display: flex;
+  background-image: linear-gradient(to right top, #2e2f30, #3f4142, #505453, #646765, #7a7b77);
+  padding: 25px;
+  align-items: center;
+  justify-content: space-between; }
+  header img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%; }
+
+.main {
+  width: 100%;
+  min-height: 700px;
+  background-image: url("../img/backfon.jpg");
+  padding: 15px; }
+  .main .client-info-box {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px; }
+    @media all and (max-width: 1000px) {
+      .main .client-info-box {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center; } }
+    .main .client-info-box .money-box {
+      width: 400px;
+      height: 390px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-around;
+      border: solid 1px black;
+      border-radius: 10%;
+      margin-bottom: 10px;
+      background-image: linear-gradient(to right top, #2e2f30, #3f4142, #505453, #646765, #7a7b77); }
+      @media all and (max-width: 450px) {
+        .main .client-info-box .money-box {
+          width: 200px;
+          height: 200px; } }
+      .main .client-info-box .money-box h2 {
+        font-size: 30px;
+        font-weight: 700;
+        text-align: center;
+        color: white; }
+        @media all and (max-width: 450px) {
+          .main .client-info-box .money-box h2 {
+            font-size: 10px;
+            font-weight: 300; } }
+      .main .client-info-box .money-box p {
+        font-size: 30px;
+        font-weight: 800;
+        color: white; }
+        @media all and (max-width: 450px) {
+          .main .client-info-box .money-box p {
+            font-size: 10px;
+            font-weight: 300; } }
+      .main .client-info-box .money-box span {
+        font-size: 25px;
+        font-weight: 700;
+        color: white; }
+        @media all and (max-width: 450px) {
+          .main .client-info-box .money-box span {
+            font-size: 10px;
+            font-weight: 300; } }
+    .main .client-info-box .location {
+      width: 400px;
+      height: 390px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-around;
+      border: solid 1px black;
+      border-radius: 10%;
+      background-image: url("../img/backweather.jpg"); }
+      @media all and (max-width: 450px) {
+        .main .client-info-box .location {
+          width: 200px;
+          height: 200px; } }
+      @media all and (max-width: 450px) {
+        .main .client-info-box .location h2 {
+          font-size: 20px; } }
+      .main .client-info-box .location .degree-section {
+        display: flex;
+        justify-content: space-between; }
+        .main .client-info-box .location .degree-section h2 {
+          font-size: 40px; }
+          @media all and (max-width: 450px) {
+            .main .client-info-box .location .degree-section h2 {
+              font-size: 15px; } }
+      .main .client-info-box .location .temperature-description {
+        font-size: 40px; }
+        @media all and (max-width: 450px) {
+          .main .client-info-box .location .temperature-description {
+            font-size: 10px;
+            font-weight: 300; } }
+  .main .news {
+    width: 100%; }
+    .main .news .articlNews {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around; }
+      @media all and (max-width: 1500px) {
+        .main .news .articlNews {
+          flex-direction: column;
+          align-items: center;
+          justify-content: center; } }
+      .main .news .articlNews .newsBox {
+        width: 650px;
+        padding: 10px;
+        border: solid 1px black;
+        border-radius: 10%;
+        margin-top: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-image: linear-gradient(to right top, #2e2f30, #3f4142, #505453, #646765, #7a7b77); }
+        @media all and (max-width: 745px) {
+          .main .news .articlNews .newsBox {
+            width: 400px;
+            height: 390px; } }
+        @media all and (max-width: 450px) {
+          .main .news .articlNews .newsBox {
+            width: 200px;
+            height: 200px; } }
+        .main .news .articlNews .newsBox h2 {
+          text-align: center;
+          color: white; }
+          @media all and (max-width: 745px) {
+            .main .news .articlNews .newsBox h2 {
+              font-size: 10px; } }
+        .main .news .articlNews .newsBox img {
+          display: block;
+          width: 600px;
+          height: 400px; }
+          @media all and (max-width: 745px) {
+            .main .news .articlNews .newsBox img {
+              width: 300px;
+              height: 300px; } }
+          @media all and (max-width: 450px) {
+            .main .news .articlNews .newsBox img {
+              width: 100px;
+              height: 100px; } }
+        .main .news .articlNews .newsBox p {
+          font-size: 20px;
+          color: white; }
+          @media all and (max-width: 745px) {
+            .main .news .articlNews .newsBox p {
+              font-size: 10px; } }
+        .main .news .articlNews .newsBox a {
+          font-size: 20px;
+          text-decoration: none;
+          color: #047ecf; }
+          @media all and (max-width: 745px) {
+            .main .news .articlNews .newsBox a {
+              font-size: 10px; } }
+
+#map {
+  width: 100%;
+  height: 400px;
+  background-image: linear-gradient(to right top, #2e2f30, #3f4142, #505453, #646765, #7a7b77); }
+
+footer {
+  background-color: black;
+  height: 60px; }
+  footer .end {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 64px;
+    background-color: #1a1a1a; }
+    footer .end p {
+      color: #7a7a7a;
+      font-family: Lato;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 42px;
+      letter-spacing: 0.4px; }
+      @media all and (max-width: 450px) {
+        footer .end p {
+          font-size: 10px; } }
+    footer .end img {
+      margin-right: 30px; }
+      @media all and (max-width: 450px) {
+        footer .end img {
+          margin-right: 20px; } }

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+
+    <link rel="stylesheet" href="css/style.css">
+
+
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Permanent+Marker|Satisfy" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <img src="img/logo.jpg" alt="logo">
+            <h1>Do you know where you are?</h1>
+        </header>
+        <div class="main">
+            <div class="client-info-box">
+                <div class="money-box">
+                    <h2>Current currency in this country</h2>
+                    <p class="moneyValue"></p>
+                    <span class="noMoney">No money - no honey!</span>
+                </div>
+                <div class="location">
+                    <h2 class="location-timezone">Timesone</h2>
+
+                    <canvas class="icon" width="140" height="140"></canvas>
+                    <div class="temperature">
+                        <div class="degree-section">
+                            <h2 class="temperature-degree">34</h2>
+                            <h2> C </h2>
+                        </div>
+                        <div class="temperature-description">cold</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="news">
+                <div class="articlNews"></div>
+            </div>
+
+        </div>
+        <div id="map"></div>
+        <footer>
+            <div class="end">
+                <p>Copyright © Company.</p>
+                <div class="box-logo">
+                    <a href="www.facebook.com"><img src="img/fc.png" alt="facebook"></a>
+                    <a href="https://aboutme.google.com/u/0/?referer=gplus"><img src="img/gplus.png"
+                            alt="googleservice"></a>
+                    <a href="https://twitter.com/?lang=uk"><img src="img/twit.png" alt="twitter"></a>
+                    <a href="#"><img src="img/ball.png" alt="ball"></a>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBwZW4DXGbqHQK4evfOlk7TrdZcPDD21gc"></script>
+    <script src="js/skycons.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
